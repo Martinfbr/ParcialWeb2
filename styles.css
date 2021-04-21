@@ -57,6 +57,24 @@ body {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 16px;
 }
+article button {
+        font-family: 'Be Vietnam', sans-serif;
+        font-weight: 400;
+        color: aliceblue;
+        padding: 7px 20px;
+        font-size: 10px;
+        position: absolute;
+        background: #F3613C;
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+        border-radius: 30px;
+        position: absolute;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 0px 5px 9px 0px rgba(189, 99, 47, 0.774);
+    }
 #box-container {
         background: gray;
         display: flex;
@@ -66,13 +84,13 @@ body {
       }
       #box-1 {
         background-color: dodgerblue;
-        width: 25%;
+        width: 50%;
         height: 100%;
       }
     
       #box-2 {
         background-color: orangered;
-        width: 25%;
+        width: 50%;
         height: 100%;
 }
 
@@ -124,6 +142,14 @@ body {
         -ms-grid-column: 5;
         background-color: #515050;
     }
+    #box-container {
+        background: gray;
+        display: flex;
+        height: 500px;
+        justify-content: center;
+    
+      }
+
 
 }
 
@@ -167,15 +193,23 @@ object {
         justify-content: center;
     
       }
-      #box-1 {
-        background-color: dodgerblue;
-        width: 25%;
-        height: 100%;
-      }
-    
-      #box-2 {
-        background-color: orangered;
-        width: 25%;
-        height: 100%;
-}
+      article button {
+        font-family: 'Be Vietnam', sans-serif;
+        font-weight: 400;
+        color: aliceblue;
+        padding: 7px 20px;
+        font-size: 10px;
+        position: absolute;
+        background: #F3613C;
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+        border-radius: 30px;
+        position: absolute;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-left: 35%;
+        box-shadow: 0px 5px 9px 0px rgba(189, 99, 47, 0.774);
+    }
 }
