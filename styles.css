@@ -61,6 +61,24 @@ body {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 16px;
 }
+#box-container {
+        background: gray;
+        display: flex;
+        height: 500px;
+        justify-content: center;
+    
+      }
+      #box-1 {
+        background-color: dodgerblue;
+        width: 25%;
+        height: 100%;
+      }
+    
+      #box-2 {
+        background-color: orangered;
+        width: 25%;
+        height: 100%;
+}
 
 @media only screen and (min-width: 1220px) {
     #mygrid {
@@ -107,6 +125,7 @@ body {
         -ms-grid-column: 5;
         background-color: #515050;
     }
+
 }
 
 img,
@@ -142,4 +161,22 @@ object {
         -ms-grid-column: 5;
         background-color: #515050;
     }
+    #box-container {
+        background: gray;
+        display: flex;
+        height: 500px;
+        justify-content: center;
+    
+      }
+      #box-1 {
+        background-color: dodgerblue;
+        width: 25%;
+        height: 100%;
+      }
+    
+      #box-2 {
+        background-color: orangered;
+        width: 25%;
+        height: 100%;
+}
 }
