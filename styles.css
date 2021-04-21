@@ -14,29 +14,25 @@
     bottom: auto;
     word-spacing: 15px;
     cursor: pointer;
-    margin-top: -22px;
+    margin-top: -24px;
 }
 
 .navbar .letra {
     font-family: 'Be Vietnam';
     font-weight: bold;
-    color: #494241;
+    color: #33324D;
 }
 
 .navbar .home {
     font-family: 'Be Vietnam';
     font-weight: bold;
-    color: #494241;
-}
-
-.navbar .icone {
-    color: #494241;
+    color: #33324D;
 }
 
 header .logo {
     width: 110px;
-    padding-top: 25px;
-    padding-left: 70px;
+    padding-top: 63px;
+    padding-left: 120px;
 }
 
 .letra {
@@ -72,19 +68,22 @@ body {
     article button {
         font-family: 'Be Vietnam', sans-serif;
         font-weight: 400;
-        color: var(--blanco);
+        color: aliceblue;
         padding: 7px 20px;
         font-size: 10px;
         position: absolute;
         background: #F3613C;
-        padding-top: 30px;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
         border-radius: 30px;
         position: absolute;
         border: none;
         outline: none;
         cursor: pointer;
+        margin-top: -38px;
+        margin-left: 1160px;
+        box-shadow: 0px 5px 9px 0px rgba(189, 99, 47, 0.774);
     }
     #myheader {
         -ms-grid-row: 1;
