@@ -15,6 +15,78 @@
         padding-left: 10%;
         padding-right: 12%;
     }
+
+    #container2{
+        padding-top: 5%;
+        background: gray;
+        display: flex;
+        height: 500px;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .bloqueH{
+        display: flex;
+        margin-top: 330px;
+        padding:center ;
+        justify-content: center;
+
+    }
+    #hh{
+
+        font-family: 'Be Vietnam', sans-serif;
+        font-weight: 700;
+        color: #162449;
+        font-size: 45px;
+        padding: 1px;
+        
+        
+    }
+    .avatar{
+        margin-left: 29px;
+        padding: 1px;
+        width: 116px;
+        height: 116px;
+        background: white;
+        border-radius: 10rem;
+        
+        
+    } 
+    #bloqueAvatar1 {
+        padding: 6px;
+        display: flex;
+        background: white;
+        border-radius: 10rem;
+        border: solid 2px #eff0f9;
+        justify-content: center;
+        background-color: orangered;
+        width: 30%;
+        height: 100%;
+
+    }
+    #bloqueAvatar2 {
+        padding: 6px;
+        display: flex;
+        background-color: orangered;
+        width: 30%;
+        height: 100%;
+        background: white;
+        border-radius: 10rem;
+        border: solid 2px #eff0f9;
+        justify-content: center;
+
+    }
+    #bloqueAvatar3 {
+        padding: 6px;
+        display: flex;
+        background-color: orangered;
+        width: 30%;
+        height: 100%;
+        background: white;
+        border-radius: 10rem;
+        border: solid 2px #eff0f9;
+        justify-content: center;
+
+    }
     .graficas {
         width: 400px;
         margin-left: 19%;
