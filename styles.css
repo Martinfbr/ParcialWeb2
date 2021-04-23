@@ -58,7 +58,6 @@
         border-radius: 10rem;
         border: solid 2px #eff0f9;
         justify-content: center;
-        background-color: orangered;
         width: 30%;
         height: 100%;
 
@@ -66,10 +65,8 @@
     #bloqueAvatar2 {
         padding: 6px;
         display: flex;
-        background-color: orangered;
         width: 30%;
         height: 100%;
-        background: white;
         border-radius: 10rem;
         border: solid 2px #eff0f9;
         justify-content: center;
@@ -78,7 +75,6 @@
     #bloqueAvatar3 {
         padding: 6px;
         display: flex;
-        background-color: orangered;
         width: 30%;
         height: 100%;
         background: white;
