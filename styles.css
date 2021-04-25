@@ -169,7 +169,7 @@
 .avatar {
     margin-left: 29px;
     padding: 1px;
-    width: 116px;
+    width: 40px;
     height: 116px;
     background: white;
     border-radius: 10rem;
@@ -179,11 +179,12 @@
     padding: 6px;
     display: flex;
     background: white;
-    border-radius: 10rem;
     border: solid 2px #eff0f9;
     justify-content: center;
     width: 30%;
     height: 100%;
+    border-radius: 10rem;
+    /* para quitar la forma de bordes circular y dejar en cuadrado */
 }
 
 #bloqueAvatar2 {
@@ -192,6 +193,7 @@
     width: 30%;
     height: 100%;
     border-radius: 10rem;
+    /* para quitar la forma de bordes circular y dejar en cuadrado */
     border: solid 2px #eff0f9;
     justify-content: center;
 }
@@ -203,6 +205,7 @@
     height: 100%;
     background: white;
     border-radius: 10rem;
+    /* para quitar la forma de bordes circular y dejar en cuadrado */
     border: solid 2px #eff0f9;
     justify-content: center;
 }
@@ -240,7 +243,7 @@ header article button {
     display: flex;
     height: 500px;
     justify-content: center;
-    margin-top: 0;
+    margin-top: 20px;
 }
 
 #container4 {
