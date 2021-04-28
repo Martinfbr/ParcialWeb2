@@ -1,74 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
 @media only screen and (min-width: 700px) {
+  body{
+    margin: 0;
+   
+    background-image: url("../Img/bg-tablet-pattern.svg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 100% -4%;
+  }
+ 
+/* Header*/
+header{
+ 
+ width: 90%;
+ height: 50px;
+ margin-top: 80px;
 
 
+}
+.Nav-container{
+ width: 80%;
+ margin: auto;
+}
+
+.Nav-logo{
+  float: left;
+}
+.nav-menu{
+ 
+ float: center;
+ margin-left: 32%;
+ font-size: 12px;
+ cursor: pointer;
+  
+  
+}
+.nav-menu a{
+  font-family: 'Be Vietnam';
+  font-weight: bold;
+  color: #33324D;
+  line-height: normal;
+  padding: 10px;
+  transition: all 500ms ease;
+}
+  .nav-menu a:hover{
+    color: #acacac;
+  }
+
+.nav-bottom{
+  float: right;
+  margin-top: -8%;
+  margin-right:-20% ;
+  transition: all 500ms ease;
+}
 
 .Bottom{
+  line-height: normal;
   font-family: 'Be Vietnam', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: aliceblue;
   padding: 10px 25px;
   font-size: 10px;
-  position: absolute;
   background: #F3613C;
-  padding-top: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
   border-radius: 30px;
   cursor: pointer;
   box-shadow: 0px 5px 9px 0px rgba(189, 99, 47, 0.774);
 }
+
+a{
+  text-decoration: none;
+}
+
 .logoletra{
   width: 118px;
   height: 38px;
   border-radius: 20px;
   border-style: none;
   outline: none;
-}
-
-
-body{
-  margin: 0;
-  background: white;
-  background-image: url("../Img/bg-tablet-pattern.svg");
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: 107% -5%;
-}
-
-.navbar {
-    color: #33324D;
-    font-size: 12px;
-    margin: 0 auto;
-    height: 50%;
-    width: 100%;
-    display: flex;
-    word-spacing: 20px;
-    cursor: pointer;
-    font-family: 'Be Vietnam';
-    font-weight: bold;
-    }
-
-.navbar .letra {
-    font-family: 'Be Vietnam';
-    font-weight: bold;
-    color: #33324D;
-
-}
-.navbar .home {
-    font-family: 'Be Vietnam';
-    font-weight: bold;
-    color: #33324D;
-}
-
-header .logo {
-    height: 100%;
-    width: 20%;
-    display: flex;
-  }
-
-a {
-    text-decoration: none;
 }
 
 ul>li {
@@ -85,7 +93,6 @@ article button {
     color: aliceblue;
     padding: 7px 20px;
     font-size: 10px;
-    position: absolute;
     background: #F3613C;
     padding-top: 10px;
     padding-right: 25px;
@@ -95,24 +102,11 @@ article button {
     cursor: pointer;
     box-shadow: 0px 5px 9px 0px rgba(189, 99, 47, 0.774);
 }
-.letraboton{
-  color: azure;
-  cursor: pointer;
-  margin-left: 100%;
-}
-/* Header*/
-header {
-  font-family: 'Be Vietnam';
-  width: 100%;
-  margin: 0 auto;
-  display: flex; 
-  font-weight: bold;
-}
 
 
 /*  Division 1 */
 #box-container {
-   
+  font-family: 'Be Vietnam', sans-serif;
     display: flex;
     height: 100%;
     justify-content: center;
@@ -127,6 +121,30 @@ header {
     flex-direction: column;
     }
 
+.box1Titulo{
+  font-size: 3.9rem;
+  color: #162449;
+}
+.Box1Texto{
+    display: flex;
+    font-size: 1.2rem;
+    color: #979BA6;
+    padding-right: 20%;
+
+}
+.botonizq{
+
+  display: flex;
+  justify-content: center;
+  background: tomato;
+  border-radius: 20px;  
+  width: 9rem;
+  height: 1rem;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: aliceblue;
+}
 
 #box-2 {
     
@@ -135,15 +153,18 @@ header {
     display: flex;
     
 }
+
 .graficas{
-  max-width: 100%;
-  height: auto;
+  width: 200%;
+  margin-left: 20%;
+  display: flex;
+  
 }
 .ilustracion{
+  display: flex;
+  justify-content:right;
   width: 50%;
   height: auto;
-  display: flex;
-  justify-content: flex-end;
 }
 
 
@@ -154,7 +175,7 @@ header {
 /* Division 2 */
 
 .Division2{
-   
+    margin-top: 30px;
     display: flex;
     height: 100%;
     justify-content: center;
@@ -265,11 +286,12 @@ header {
   }
  
   .section-3 {
+    
     background: white;
     background-image: url("../img/bg-tablet-pattern.svg");
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: -50% 5%;
+    background-position: -55% 1%;
     width: 100%;
     margin: 8% 0px 12%;
     text-align: center;
