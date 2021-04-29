@@ -443,7 +443,8 @@ button :hover {
   
   .ilustracion{
     float: center ;
-    text-align: center;
+    width: 100%;
+ 
   }
   
   .icon-mobil {
@@ -537,16 +538,7 @@ button :hover {
     padding-right: 7%;
     text-align: center;
 }
-.graficas {
-    max-width: 200%;
-    text-align: center;
-    
-    
-}
-.ilustracion {
-   height: auto;
-   margin: 0 auto;
-}
+
 .parraizq {
     color: #979BA6;
     padding-left: 10%;
@@ -646,12 +638,12 @@ button :hover {
 }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   a{
     text-decoration: none;
   }
   header {
-    width: 80%;
+    width: 84%;
     margin-top: 3%;
   }
   .started {
@@ -662,4 +654,12 @@ button :hover {
   .icon-mobil {
     display: none;
   }
+  .ilustracion{
+    height: auto;
+    margin-top: 20%;
+  }
+  .box1Titulo{
+    font-size: 50px;
+  }
+  
 }
