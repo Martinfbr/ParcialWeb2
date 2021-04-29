@@ -1,665 +1,656 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
-
-  body{
-    margin: 0;
-    font-family: 'Be Vietnam';
-    background-image: url("../Img/bg-tablet-pattern.svg");
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: 110% -4%;
-  }
- 
-/* Header*/
-
-main{
-  background-image: url("../Img/bg-tablet-pattern.svg");
-  background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: -10% 60%;
-}
-
-/*header */
-
-header {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  margin-top: 10px;
-  width: 30%;
-  height: auto;
-}
-
-.navbar {
-  display: none;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 5px;
-  padding-left: 0;
-  text-align: center;
-  transition: all 500ms ease;
-  color: #979BA6;
-}
-.menu a:Hover{
-  color: #F3613C;
-}
-
-
-.started {
-  display: none;
-}
-
-/*Termina Header */
-a{
-  text-decoration: none;
-}
-
-ul>li {
-    display: inline;
-    cursor: pointer;
-}
-
-.clear {
-    clear: both;
-}
-
-  
-header button {
-  width: 118px;
-  height: 38px;
-  border-radius: 20px;
-  border-style: none;
-  outline: none;
-  color: white;
-  background-color:#F3613C;
-}
-
-/*  Division 1 */
-#box-container {
-    font-family: 'Be Vietnam', sans-serif;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    margin-top: 3%;
-   }
-
-#box-1 {
-    
-    width: 42%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    }
-
-.box1Titulo{
-  font-size: 3.9rem;
-  color: #162449;
-}
-.Box1Texto{
-    display: flex;
-    font-size: 1.2rem;
-    color: #979BA6;
-    padding-right: 20%;
-
-}
-.botonizq{
-
-  display: flex;
-  justify-content: center;
-  background: tomato;
-  border-radius: 20px;  
-  width: 9rem;
-  height: 1rem;
-  margin: 20px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  color: aliceblue;
-}
-
-#box-2 {
-    
-    width: 42%;
-    height: 100%;
-    display: flex;
-    
-}
-
-.graficas{
-  width: 200%;
-  margin-left: 20%;
-  display: flex;
-  
-}
-.ilustracion{
-  display: flex;
-  justify-content:right;
-  width: 50%;
-  height: auto;
-}
-
-
-/* Termina Division 1 */
-
-
-
-/* Division 2 */
-
-.Division2{
-
-    margin-top: 30px;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    font-family: 'Be Vietnam', sans-serif;
-
-} 
-.Division2 .izquierda{
-    
-    display: flex;
-    width: 42%;
-    flex-direction: column;
-    text-align:left
-     
-}
-
-.Division2 .Titulo{
-    font-size: 1.9rem;
-    margin-right: 10%;
-    color: #162449;
-    
-}
-
-.Division2 .texto{
-    margin-right: 30%;
-    font-size: 1.2rem;
-    color: #979BA6;
-}
-
-.Division2 .derecha{
-    width: 42%;
-    
-}
-.Division2 .contenido{
-    margin-top: 10%;
-    display: flex;
-   
-}
-
-.Division2 .bottom{
- 
-    color: white;
-  }
-
-.numero{
-    display: flex;
-    justify-content: center;
-    background: tomato;
-    border-radius: 20px;  
-    width: 4rem;
-    height: 2rem;
-    margin: 8px;
-    padding-top: 7%;
-  }
-
-.contenido .titulo{
-   color: #162449;
-   margin: 0.813rem 0 0;
-   margin-left: -20;
-   
-   
-}
-.textoProducto{
-    display: flex;
-    font-size: 1.1rem;
-    color: #979BA6;
-    padding-right: -100px;    
-}
-
-
-/* Division 3 Avatares*/
-
-.Division3 {
-  font-family: 'Be Vietnam', sans-serif;
-  width: 100%;
-  margin: 8% 0px 12%;
-  text-align: center;
-}
-
-.Division3 .section-title {
-  color: #272A46;
-}
-
-.Division3 .testimonioDiv{
-  display: grid;
-  grid: 1fr / repeat(3, 1fr);
-  grid-column-gap: 20px;
-  margin: 7% 0 3%;
-}
-
-.Division3 .testimonio {
-  background-color: #FAFAFA;
-  padding: 0 15px;
-  height: 32vh;
-  text-align: center;
-}
-
-.Division3 .testimonioAvatar {
-  position: relative;
-  width: 25%;
-  bottom: 30px;
-  height: auto;
-}
-
-.Division3 .Nombre {
-  margin: 0 0 10px;
-  color: var(--DarkBlue);
-}
-
-.Division3 .informacion {
-  font-size: 14px;
-  margin: 10px 0;
-}
-
-
-button {
-  width: 118px;
-  height: 38px;
-  border-radius: 20px;
-  border-style: none;
-  outline: none;
-  background-color: var(--BrightRed);
-}
-
-button :hover {
-  background: var(--PaleRed);
-}
-
-
-
-/*Termina division de avatares*/
-
-:root {
-    --BrightRed: hsl(12, 88%, 59%);
-    --DarkBlue: hsl(228, 39%, 23%);
-    --GrayishBlue: hsl(227, 12%, 61%);
-    --DarkBluee: hsl(233, 12%, 13%);
-    --PaleRed: hsl(13, 100%, 96%);
-    --LightGray: hsl(0, 0%, 98%);
-  }
-
-  .product-info__title {
-    color: var(--DarkBlue);
-    width: 80%;
-    margin: 10px 0;
-    line-height: 40px;
-    font-size: 35px;
-  }
- 
-  
-  .section-footer {
-    font-family: 'Be Vietnam', sans-serif;
-    width: 100%;
-    height: 200px;
-    padding: 2% 10%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--BrightRed);
-    background-image: url("./Img/fondo-transparente.png");
-    background-size: 25rem;
-    
-    background-repeat: no-repeat;
-    background-position: 28% 40%;
-  }
-  
-  .section-footer-div {
-    align-self: center;
-    
-  }
-  
-  .section-footer__title {
-    margin: 0 auto;
-    font-size: 2.2rem;
-    color: white;
-    
-  }
-  
-  .started-item--white {
-    align-self: center;
-    color: var(--BrightRed);
-    background-color: white;
-  }
-  
-  .started-item__link--orange {
-    margin: 0 auto;
-  }
-  
-  footer {
-    width: 100%;
-    height: 240px;
-    padding: 3% 10%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--DarkBluee);
-  }
-  
-  .footer-media {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  
-
-  }
-  .media{
-    margin-left: -10%;
-    float: left;
-  }
-     
-  .media-item :hover {
-    color: var(--BrightRed);
-  }
-  
-  .footer-bar {
-    display: flex;
-    width: 45%;
-  }
-  
-  .footer-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0;
-    width: 50%;
-  }
-  
-  .footer-menu-item__link {
-    color: white;
-  }
-  
-  .footer-menu-item :hover {
-    color: var(--BrightRed);
-  }
-   
-  .footer-form{
-    width: 30%;
-    text-align: end;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .form {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .form__email {
-    width: 70%;
-    height: 38px;
-    border-radius: 20px;
-    border-style: none;
-    outline: none;
-    box-sizing: border-box;
-    padding: 2px 10px;
-  }
-  
-  .go {
-    width: 28%;
-  }
-  
-  .copyright__item {
-    font-size: 13px;
-  }
-
-
-@media only screen and (min-width: 1024px) {
-  .navbar {
-    display: initial;
-    width: 40%;
-  }
-  .started {
-    width: 30%;
-    text-align: end;
-    display: initial;
-  }
-
-  a{
-    text-decoration: none;
-  }
-
-
-}  
-
-@media only screen and (min-width:300px) and (max-width:740px) {
-  
-  .ilustracion{
-    float: center ;
-    width: 100%;
- 
-  }
-  
-  .icon-mobil {
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  
-  
-
-.Nav-container{
-  width: 80%;
-  margin: auto;
- 
- }
- 
- .Nav-logo{
-   float: left;
- }
- .nav-menu{
-  display: none;
-  float: right;
-  font-size: 12px;
-  cursor: pointer;
-  size: 100%;
-  background: salmon;
-  
-   
-   
- }
- .nav-menu a{
-   font-family: 'Be Vietnam';
-   font-weight: bold;
-   color: #33324D;
-   line-height: normal;
-   padding: 10px;
-   transition: all 500ms ease;
- }
-   .nav-menu a:hover{
-     color: #acacac;
-   }
- 
- .nav-bottom{
-   float: right;
-   margin-top: -8%;
-   margin-right:-20% ;
-   transition: all 500ms ease;
- }
- 
- .Bottom{
-   line-height: normal;
-   font-family: 'Be Vietnam', sans-serif;
-   font-weight: 700;
-   color: aliceblue;
-   padding: 10px 25px;
-   font-size: 10px;
-   background: #F3613C;
-   border-radius: 30px;
-   cursor: pointer;
-   box-shadow: 0px 5px 9px 0px rgba(189, 99, 47, 0.774);
- }
-
-/*  Division 1 */
-#box-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-}
-#box-2 {
-    width: 42%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-right: 110%;
-}
-#box-1 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-right: 50%;
-}
-
-.titulo1 {
-    color: #162449;
-    font-weight: bold;
-    font-family: 'Be Vietnam', sans-serif;
-    font-size: 39px;
-    padding-left: 5%;
-    padding-right: 7%;
-    text-align: center;
-}
-
-.parraizq {
-    color: #979BA6;
-    padding-left: 10%;
-    padding-right: 11%;
-    font-size: 16px;
-}
-/* Termina Division 1 */
-/* Division 2 */
-.Division2 {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-}
-.Division2 .izquierda {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-.Division2 .Titulo {
-    font-size: 20px;
-    font-weight: 700;
-    color: #162449;
-    padding-left: 16%;
-    padding-right: 5%;
-}
-.Division2 .texto {
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 15px;
-    color: #979BA6;
-    font-family: 'Be Vietnam', sans-serif;
-    text-align: center;
-}
-.Division2 .derecha {
-    width: 100%;
-}
-.Division2 .contenido {
-    padding-top: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-}
-.Division2 .bottom {
-    color: white;
-    padding-top: 3%;
-}
-.numero {
-    display: flex;
-    background: tomato;
-    border-radius: 20px;
-    justify-content: center;
-    width: 5rem;
-    height: 1rem;
-    margin: 16px;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    margin-top: -20%;
-}
-
-.contenido .titulo {
-    color: #162449;
-    margin-left: 29%;
-    font-family: 'Be Vietnam', sans-serif;
-    margin-top: -25%;
-    font-size: 16px;
-    text-align: initial;
-    width: 100%;
-    padding-top: 3%;
-    background:#edcdcd;
-}
-.textoProducto {
-    display: flex;
-    font-size: 1rem;
-    color: #979BA6;
-    padding-right: -100px;
-    font-family: 'Be Vietnam', sans-serif;
-    margin-left: 5%;
-    padding-top: 3%;
-}
-.product-info__title {
-    color: var(--DarkBlue);
-    width: 80%;
-    margin: 10px 0;
-    line-height: 40px;
-    font-size: 35px;
-}
-.section-3 {
-    background: white;
-    background-image: url("../img/bg-tablet-pattern.svg");
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: -50% 5%;
-    width: 100%;
-    margin: 8% 0px 12%;
-    text-align: center;
-}
-}
-
-@media (min-width: 700px) {
-  a{
-    text-decoration: none;
-  }
-  header {
-    width: 84%;
-    margin-top: 3%;
-  }
-  .started {
-    width: 30%;
-    text-align: end;
-    display: initial;
-  }
-  .icon-mobil {
-    display: none;
-  }
-  .ilustracion{
-    height: auto;
-    margin-top: 20%;
-  }
-  .box1Titulo{
-    font-size: 50px;
-  }
-  
-}
+                                                                                                @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+                                                                                                body {
+                                                                                                    margin: 0;
+                                                                                                    font-family: 'Be Vietnam';
+                                                                                                    background-image: url("../Img/bg-tablet-pattern.svg");
+                                                                                                    background-size: 40%;
+                                                                                                    background-repeat: no-repeat;
+                                                                                                    background-position: 110% -4%;
+                                                                                                }
+                                                                                                /* Header*/
+                                                                                                
+                                                                                                main {
+                                                                                                    background-image: url("../Img/bg-tablet-pattern.svg");
+                                                                                                    background-size: 40%;
+                                                                                                    background-repeat: no-repeat;
+                                                                                                    background-position: -10% 60%;
+                                                                                                }
+                                                                                                /*header */
+                                                                                                
+                                                                                                header {
+                                                                                                    width: 90%;
+                                                                                                    margin: 0 auto;
+                                                                                                    margin-top: 5%;
+                                                                                                    display: flex;
+                                                                                                    justify-content: space-between;
+                                                                                                }
+                                                                                                
+                                                                                                .logo {
+                                                                                                    margin-top: 10px;
+                                                                                                    width: 30%;
+                                                                                                    height: auto;
+                                                                                                }
+                                                                                                
+                                                                                                .navbar {
+                                                                                                    display: none;
+                                                                                                }
+                                                                                                
+                                                                                                .menu {
+                                                                                                    display: flex;
+                                                                                                    justify-content: space-evenly;
+                                                                                                    margin-top: 5px;
+                                                                                                    padding-left: 0;
+                                                                                                    text-align: center;
+                                                                                                    transition: all 500ms ease;
+                                                                                                    color: #979BA6;
+                                                                                                }
+                                                                                                
+                                                                                                .menu a:Hover {
+                                                                                                    color: #F3613C;
+                                                                                                }
+                                                                                                
+                                                                                                .started {
+                                                                                                    display: none;
+                                                                                                }
+                                                                                                /*Termina Header */
+                                                                                                
+                                                                                                a {
+                                                                                                    text-decoration: none;
+                                                                                                }
+                                                                                                
+                                                                                                ul>li {
+                                                                                                    display: inline;
+                                                                                                    cursor: pointer;
+                                                                                                }
+                                                                                                
+                                                                                                .clear {
+                                                                                                    clear: both;
+                                                                                                }
+                                                                                                
+                                                                                                header button {
+                                                                                                    width: 118px;
+                                                                                                    height: 38px;
+                                                                                                    border-radius: 20px;
+                                                                                                    border-style: none;
+                                                                                                    outline: none;
+                                                                                                    color: white;
+                                                                                                    background-color: #F3613C;
+                                                                                                }
+                                                                                                /*  Division 1 */
+                                                                                                
+                                                                                                #box-container {
+                                                                                                    font-family: 'Be Vietnam', sans-serif;
+                                                                                                    display: flex;
+                                                                                                    height: 100%;
+                                                                                                    justify-content: center;
+                                                                                                    margin-top: 3%;
+                                                                                                }
+                                                                                                
+                                                                                                #box-1 {
+                                                                                                    width: 42%;
+                                                                                                    height: 100%;
+                                                                                                    display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                }
+                                                                                                
+                                                                                                .box1Titulo {
+                                                                                                    font-size: 3.9rem;
+                                                                                                    color: #162449;
+                                                                                                }
+                                                                                                
+                                                                                                .Box1Texto {
+                                                                                                    display: flex;
+                                                                                                    font-size: 1.2rem;
+                                                                                                    color: #979BA6;
+                                                                                                    padding-right: 20%;
+                                                                                                }
+                                                                                                
+                                                                                                .botonizq {
+                                                                                                    display: flex;
+                                                                                                    justify-content: center;
+                                                                                                    background: tomato;
+                                                                                                    border-radius: 20px;
+                                                                                                    width: 9rem;
+                                                                                                    height: 1rem;
+                                                                                                    margin: 20px;
+                                                                                                    padding-top: 10px;
+                                                                                                    padding-bottom: 20px;
+                                                                                                    color: aliceblue;
+                                                                                                    margin-left: 30%;
+                                                                                                }
+                                                                                                
+                                                                                                #box-2 {
+                                                                                                    width: 42%;
+                                                                                                    height: 100%;
+                                                                                                    display: flex;
+                                                                                                }
+                                                                                                
+                                                                                                .graficas {
+                                                                                                    width: 200%;
+                                                                                                    margin-left: 20%;
+                                                                                                    display: flex;
+                                                                                                }
+                                                                                                
+                                                                                                .ilustracion {
+                                                                                                    display: flex;
+                                                                                                    justify-content: right;
+                                                                                                    width: 50%;
+                                                                                                    height: auto;
+                                                                                                }
+                                                                                                /* Termina Division 1 */
+                                                                                                /* Division 2 */
+                                                                                                
+                                                                                                .Division2 {
+                                                                                                    margin-top: 30px;
+                                                                                                    display: flex;
+                                                                                                    height: 100%;
+                                                                                                    justify-content: center;
+                                                                                                    flex-direction: column;
+                                                                                                    font-family: 'Be Vietnam', sans-serif;
+                                                                                                }
+                                                                                                
+                                                                                                .Division2 .izquierda {
+                                                                                                    display: flex;
+                                                                                                    width: 100%;
+                                                                                                    flex-direction: column;
+                                                                                                    text-align: left
+                                                                                                }
+                                                                                                
+                                                                                                .Division2 .Titulo {
+                                                                                                    font-size: 1.7rem;
+                                                                                                    font-weight: bold;
+                                                                                                    color: #162449;
+                                                                                                    padding-left: 2%;
+                                                                                                    padding-right: 2%;
+                                                                                                }
+                                                                                                
+                                                                                                .Division2 .texto {
+                                                                                                    margin-right: 30%;
+                                                                                                    font-size: 1.2rem;
+                                                                                                    color: #979BA6;
+                                                                                                }
+                                                                                                
+                                                                                                .Division2 .derecha {
+                                                                                                    width: 100%;
+                                                                                                }
+                                                                                                
+                                                                                                .Division2 .contenido {
+                                                                                                    margin-top: 10%;
+                                                                                                    display: flex;
+                                                                                                }
+                                                                                                
+                                                                                                .Division2 .bottom {
+                                                                                                    color: white;
+                                                                                                }
+                                                                                                
+                                                                                                .numero {
+                                                                                                    display: flex;
+                                                                                                    justify-content: center;
+                                                                                                    background: tomato;
+                                                                                                    border-radius: 20px;
+                                                                                                    width: 4rem;
+                                                                                                    height: 2rem;
+                                                                                                    margin: 8px;
+                                                                                                    padding-top: 7%;
+                                                                                                }
+                                                                                                
+                                                                                                .contenido .titulo {
+                                                                                                    color: #162449;
+                                                                                                    margin: 0.813rem 0 0;
+                                                                                                    margin-left: -20;
+                                                                                                }
+                                                                                                
+                                                                                                .textoProducto {
+                                                                                                    display: flex;
+                                                                                                    font-size: 1.1rem;
+                                                                                                    color: #979BA6;
+                                                                                                    padding-right: -100px;
+                                                                                                }
+                                                                                                /* Division 3 Avatares*/
+                                                                                                
+                                                                                                .Division3 {
+                                                                                                    font-family: 'Be Vietnam', sans-serif;
+                                                                                                    width: 100%;
+                                                                                                    margin: 8% 0px 12%;
+                                                                                                    text-align: center;
+                                                                                                }
+                                                                                                
+                                                                                                .Division3 .section-title {
+                                                                                                    color: #272A46;
+                                                                                                }
+                                                                                                
+                                                                                                .Division3 .testimonioDiv {
+                                                                                                    display: grid;
+                                                                                                    grid: 1fr / repeat(3, 1fr);
+                                                                                                    grid-column-gap: 20px;
+                                                                                                    margin: 7% 0 3%;
+                                                                                                }
+                                                                                                
+                                                                                                .Division3 .testimonio {
+                                                                                                    background-color: #FAFAFA;
+                                                                                                    padding: 0 15px;
+                                                                                                    height: 32vh;
+                                                                                                    text-align: center;
+                                                                                                }
+                                                                                                
+                                                                                                .Division3 .testimonioAvatar {
+                                                                                                    position: relative;
+                                                                                                    width: 25%;
+                                                                                                    bottom: 30px;
+                                                                                                    height: auto;
+                                                                                                }
+                                                                                                
+                                                                                                .Division3 .Nombre {
+                                                                                                    margin: 0 0 10px;
+                                                                                                    color: var(--DarkBlue);
+                                                                                                }
+                                                                                                
+                                                                                                .Division3 .informacion {
+                                                                                                    font-size: 14px;
+                                                                                                    margin: 10px 0;
+                                                                                                }
+                                                                                                
+                                                                                                button {
+                                                                                                    width: 118px;
+                                                                                                    height: 38px;
+                                                                                                    border-radius: 20px;
+                                                                                                    border-style: none;
+                                                                                                    outline: none;
+                                                                                                    background-color: var(--BrightRed);
+                                                                                                }
+                                                                                                
+                                                                                                button :hover {
+                                                                                                    background: var(--PaleRed);
+                                                                                                }
+                                                                                                /*Termina division de avatares*/
+                                                                                                
+                                                                                                 :root {
+                                                                                                    --BrightRed: hsl(12, 88%, 59%);
+                                                                                                    --DarkBlue: hsl(228, 39%, 23%);
+                                                                                                    --GrayishBlue: hsl(227, 12%, 61%);
+                                                                                                    --DarkBluee: hsl(233, 12%, 13%);
+                                                                                                    --PaleRed: hsl(13, 100%, 96%);
+                                                                                                    --LightGray: hsl(0, 0%, 98%);
+                                                                                                }
+                                                                                                
+                                                                                                .product-info__title {
+                                                                                                    color: var(--DarkBlue);
+                                                                                                    width: 80%;
+                                                                                                    margin: 10px 0;
+                                                                                                    line-height: 40px;
+                                                                                                    font-size: 35px;
+                                                                                                }
+                                                                                                
+                                                                                                .section-footer {
+                                                                                                    font-family: 'Be Vietnam', sans-serif;
+                                                                                                    width: 100%;
+                                                                                                    height: 200px;
+                                                                                                    padding: 2% 10%;
+                                                                                                    box-sizing: border-box;
+                                                                                                    display: flex;
+                                                                                                    justify-content: space-between;
+                                                                                                    background-color: var(--BrightRed);
+                                                                                                    background-image: url("./Img/fondo-transparente.png");
+                                                                                                    background-size: 25rem;
+                                                                                                    background-repeat: no-repeat;
+                                                                                                    background-position: 28% 40%;
+                                                                                                }
+                                                                                                
+                                                                                                .section-footer-div {
+                                                                                                    align-self: center;
+                                                                                                }
+                                                                                                
+                                                                                                .section-footer__title {
+                                                                                                    margin: 0 auto;
+                                                                                                    font-size: 2.2rem;
+                                                                                                    color: white;
+                                                                                                }
+                                                                                                
+                                                                                                .started-item--white {
+                                                                                                    align-self: center;
+                                                                                                    color: var(--BrightRed);
+                                                                                                    background-color: white;
+                                                                                                }
+                                                                                                
+                                                                                                .started-item__link--orange {
+                                                                                                    margin: 0 auto;
+                                                                                                }
+                                                                                                
+                                                                                                footer {
+                                                                                                    width: 100%;
+                                                                                                    height: 240px;
+                                                                                                    padding: 3% 10%;
+                                                                                                    box-sizing: border-box;
+                                                                                                    display: flex;
+                                                                                                    justify-content: space-around;
+                                                                                                    background-color: var(--DarkBluee);
+                                                                                                }
+                                                                                                
+                                                                                                .footer-media {
+                                                                                                    width: 25%;
+                                                                                                    display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                    justify-content: space-between;
+                                                                                                }
+                                                                                                
+                                                                                                .media {
+                                                                                                    margin-left: -10%;
+                                                                                                    float: left;
+                                                                                                }
+                                                                                                
+                                                                                                .media-item :hover {
+                                                                                                    color: var(--BrightRed);
+                                                                                                }
+                                                                                                
+                                                                                                .footer-bar {
+                                                                                                    display: flex;
+                                                                                                    width: 45%;
+                                                                                                }
+                                                                                                
+                                                                                                .footer-menu {
+                                                                                                    display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                    justify-content: space-between;
+                                                                                                    margin: 0;
+                                                                                                    width: 50%;
+                                                                                                }
+                                                                                                
+                                                                                                .footer-menu-item__link {
+                                                                                                    color: white;
+                                                                                                }
+                                                                                                
+                                                                                                .footer-menu-item :hover {
+                                                                                                    color: var(--BrightRed);
+                                                                                                }
+                                                                                                
+                                                                                                .footer-form {
+                                                                                                    width: 30%;
+                                                                                                    text-align: end;
+                                                                                                    display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                    justify-content: space-between;
+                                                                                                }
+                                                                                                
+                                                                                                .form {
+                                                                                                    display: flex;
+                                                                                                    justify-content: space-between;
+                                                                                                }
+                                                                                                
+                                                                                                .form__email {
+                                                                                                    width: 70%;
+                                                                                                    height: 38px;
+                                                                                                    border-radius: 20px;
+                                                                                                    border-style: none;
+                                                                                                    outline: none;
+                                                                                                    box-sizing: border-box;
+                                                                                                    padding: 2px 10px;
+                                                                                                }
+                                                                                                
+                                                                                                .go {
+                                                                                                    width: 28%;
+                                                                                                }
+                                                                                                
+                                                                                                .copyright__item {
+                                                                                                    font-size: 13px;
+                                                                                                }
+                                                                                                
+                                                                                                @media only screen and (min-width: 1024px) {
+                                                                                                    .navbar {
+                                                                                                        display: initial;
+                                                                                                        width: 40%;
+                                                                                                    }
+                                                                                                    .started {
+                                                                                                        width: 30%;
+                                                                                                        text-align: end;
+                                                                                                        display: initial;
+                                                                                                    }
+                                                                                                    a {
+                                                                                                        text-decoration: none;
+                                                                                                    }
+                                                                                                }
+                                                                                                
+                                                                                                @media only screen and (min-width:300px) and (max-width:740px) {
+                                                                                                    .ilustracion {
+                                                                                                        float: center;
+                                                                                                        width: 100%;
+                                                                                                    }
+                                                                                                    .icon-mobil {
+                                                                                                        margin-top: 10px;
+                                                                                                        cursor: pointer;
+                                                                                                    }
+                                                                                                    .Nav-container {
+                                                                                                        width: 80%;
+                                                                                                        margin: auto;
+                                                                                                    }
+                                                                                                    .Nav-logo {
+                                                                                                        float: left;
+                                                                                                    }
+                                                                                                    .nav-menu {
+                                                                                                        display: none;
+                                                                                                        float: right;
+                                                                                                        font-size: 12px;
+                                                                                                        cursor: pointer;
+                                                                                                        size: 100%;
+                                                                                                        background: salmon;
+                                                                                                    }
+                                                                                                    .nav-menu a {
+                                                                                                        font-family: 'Be Vietnam';
+                                                                                                        font-weight: bold;
+                                                                                                        color: #33324D;
+                                                                                                        line-height: normal;
+                                                                                                        padding: 10px;
+                                                                                                        transition: all 500ms ease;
+                                                                                                    }
+                                                                                                    .nav-menu a:hover {
+                                                                                                        color: #acacac;
+                                                                                                    }
+                                                                                                    .nav-bottom {
+                                                                                                        float: right;
+                                                                                                        margin-top: -8%;
+                                                                                                        margin-right: -20%;
+                                                                                                        transition: all 500ms ease;
+                                                                                                    }
+                                                                                                    .Bottom {
+                                                                                                        line-height: normal;
+                                                                                                        font-family: 'Be Vietnam', sans-serif;
+                                                                                                        font-weight: 700;
+                                                                                                        color: aliceblue;
+                                                                                                        padding: 10px 25px;
+                                                                                                        font-size: 10px;
+                                                                                                        background: #F3613C;
+                                                                                                        border-radius: 30px;
+                                                                                                        cursor: pointer;
+                                                                                                        box-shadow: 0px 5px 9px 0px rgba(189, 99, 47, 0.774);
+                                                                                                    }
+                                                                                                    /*  Division 1 */
+                                                                                                    #box-container {
+                                                                                                        display: flex;
+                                                                                                        justify-content: space-between;
+                                                                                                        align-items: center;
+                                                                                                        flex-wrap: wrap;
+                                                                                                        flex-direction: column-reverse;
+                                                                                                    }
+                                                                                                    #box-2 {
+                                                                                                        width: 42%;
+                                                                                                        height: 100%;
+                                                                                                        display: flex;
+                                                                                                        flex-direction: column;
+                                                                                                        padding-right: 110%;
+                                                                                                    }
+                                                                                                    #box-1 {
+                                                                                                        width: 100%;
+                                                                                                        height: 100%;
+                                                                                                        display: flex;
+                                                                                                        flex-direction: column;
+                                                                                                        padding-right: 50%;
+                                                                                                    }
+                                                                                                    .box1Titulo {
+                                                                                                        color: #162449;
+                                                                                                        font-weight: bold;
+                                                                                                        font-family: 'Be Vietnam', sans-serif;
+                                                                                                        font-size: 42px;
+                                                                                                        padding-left: 2%;
+                                                                                                        padding-right: 2%;
+                                                                                                        text-align: center;
+                                                                                                    }
+                                                                                                    .Box1Texto {
+                                                                                                        color: #979BA6;
+                                                                                                        padding-left: 10%;
+                                                                                                        padding-right: 11%;
+                                                                                                        font-size: 16px;
+                                                                                                        margin-top: -4%;
+                                                                                                    }
+                                                                                                    /* Termina Division 1 */
+                                                                                                    /* Division 2 */
+                                                                                                    .Division2 {
+                                                                                                        width: 100%;
+                                                                                                        display: flex;
+                                                                                                        height: 100%;
+                                                                                                        flex-direction: column;
+                                                                                                    }
+                                                                                                    .Division2 .izquierda {
+                                                                                                        width: 100%;
+                                                                                                    }
+                                                                                                    .Division2 .Titulo {
+                                                                                                        font-size: 28px;
+                                                                                                        font-weight: 700;
+                                                                                                        color: #162449;
+                                                                                                        padding-left: 5%;
+                                                                                                        padding-right: 5%;
+                                                                                                    }
+                                                                                                    .Division2 .texto {
+                                                                                                        margin-left: 20%;
+                                                                                                        font-size: 15px;
+                                                                                                        color: #979BA6;
+                                                                                                        font-family: 'Be Vietnam', sans-serif;
+                                                                                                        text-align: center;
+                                                                                                    }
+                                                                                                    .Division2 .derecha {
+                                                                                                        width: 100%;
+                                                                                                    }
+                                                                                                    .Division2 .contenido {
+                                                                                                        padding-top: 20%;
+                                                                                                        display: flex;
+                                                                                                        flex-wrap: wrap;
+                                                                                                        justify-content: center;
+                                                                                                        flex-direction: column;
+                                                                                                    }
+                                                                                                    .Division2 .bottom {
+                                                                                                        color: white;
+                                                                                                        padding-top: 3%;
+                                                                                                    }
+                                                                                                    .numero {
+                                                                                                        display: flex;
+                                                                                                        background: tomato;
+                                                                                                        border-radius: 20px;
+                                                                                                        justify-content: center;
+                                                                                                        width: 5rem;
+                                                                                                        height: 1rem;
+                                                                                                        margin: 16px;
+                                                                                                        padding-top: 2%;
+                                                                                                        padding-bottom: 3%;
+                                                                                                        margin-top: -20%;
+                                                                                                    }
+                                                                                                    .contenido .titulo {
+                                                                                                        color: #162449;
+                                                                                                        margin-left: 29%;
+                                                                                                        font-family: 'Be Vietnam', sans-serif;
+                                                                                                        margin-top: -25%;
+                                                                                                        font-size: 16px;
+                                                                                                        text-align: initial;
+                                                                                                        width: 100%;
+                                                                                                        padding-top: 3%;
+                                                                                                        background: #edcdcd;
+                                                                                                    }
+                                                                                                    .textoProducto {
+                                                                                                        display: flex;
+                                                                                                        font-size: 1rem;
+                                                                                                        color: #979BA6;
+                                                                                                        padding-right: -100px;
+                                                                                                        font-family: 'Be Vietnam', sans-serif;
+                                                                                                        margin-left: 5%;
+                                                                                                        padding-top: 3%;
+                                                                                                    }
+                                                                                                    .product-info__title {
+                                                                                                        color: var(--DarkBlue);
+                                                                                                        width: 80%;
+                                                                                                        margin: 10px 0;
+                                                                                                        line-height: 40px;
+                                                                                                        font-size: 35px;
+                                                                                                    }
+                                                                                                    .section-3 {
+                                                                                                        background: white;
+                                                                                                        background-image: url("../img/bg-tablet-pattern.svg");
+                                                                                                        background-size: 50%;
+                                                                                                        background-repeat: no-repeat;
+                                                                                                        background-position: -50% 5%;
+                                                                                                        width: 100%;
+                                                                                                        margin: 8% 0px 12%;
+                                                                                                        text-align: center;
+                                                                                                    }
+                                                                                                    .section-title {
+                                                                                                        color: #162449;
+                                                                                                        padding-left: 2%;
+                                                                                                        padding-right: 2%;
+                                                                                                        font-size: 40px;
+                                                                                                        font-weight: bold;
+                                                                                                    }
+                                                                                                    .section-footer {
+                                                                                                        width: 100%;
+                                                                                                        height: 100%;
+                                                                                                        box-sizing: border-box;
+                                                                                                        display: flex;
+                                                                                                        justify-content: space-between;
+                                                                                                        background-color: var(--BrightRed);
+                                                                                                        flex-direction: column;
+                                                                                                    }
+                                                                                                    .section-footer-div {
+                                                                                                        align-self: center;
+                                                                                                        padding-bottom: 30%;
+                                                                                                    }
+                                                                                                    .section-footer__title {
+                                                                                                        margin: 0 auto;
+                                                                                                        color: white;
+                                                                                                        font-weight: bold;
+                                                                                                        font-family: 'Be Vietnam', sans-serif;
+                                                                                                        font-size: 35px;
+                                                                                                        padding-top: 40%;
+                                                                                                        align-self: center;
+                                                                                                        padding-left: 10%;
+                                                                                                        padding-right: 10%;
+                                                                                                        text-align: center;
+                                                                                                    }
+                                                                                                    .started-item--white {
+                                                                                                        align-self: center;
+                                                                                                        color: var(--BrightRed);
+                                                                                                        background-color: white;
+                                                                                                    }
+                                                                                                    .started-item__link--orange {
+                                                                                                        margin: 0 auto;
+                                                                                                    }
+                                                                                                }
+                                                                                                
+                                                                                                @media (min-width: 700px) {
+                                                                                                    a {
+                                                                                                        text-decoration: none;
+                                                                                                    }
+                                                                                                    header {
+                                                                                                        width: 84%;
+                                                                                                        margin-top: 3%;
+                                                                                                    }
+                                                                                                    .started {
+                                                                                                        width: 30%;
+                                                                                                        text-align: end;
+                                                                                                        display: initial;
+                                                                                                    }
+                                                                                                    .icon-mobil {
+                                                                                                        display: none;
+                                                                                                    }
+                                                                                                    .ilustracion {
+                                                                                                        height: auto;
+                                                                                                        margin-top: 20%;
+                                                                                                    }
+                                                                                                    .box1Titulo {
+                                                                                                        font-size: 50px;
+                                                                                                    }
+                                                                                                }
