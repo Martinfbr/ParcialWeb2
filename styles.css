@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Be Vietnam';
-    background-image: url("../Img/bg-tablet-pattern.svg");
+    background-image: url("./Img/bg-tablet-pattern.svg");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: 110% -4%;
@@ -11,7 +11,7 @@ body {
 /* Header*/
 
 main {
-    background-image: url("../Img/bg-tablet-pattern.svg");
+    background-image: url("./Img/bg-tablet-pattern.svg");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: -10% 60%;
@@ -25,7 +25,9 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
+.navbar a {
+    text-decoration: none;
+}
 .logo {
     margin-top: 10px;
     width: 30%;
