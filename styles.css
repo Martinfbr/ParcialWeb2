@@ -261,11 +261,11 @@ button {
     border-radius: 20px;
     border-style: none;
     outline: none;
-    background-color: var(--BrightRed);
+    background-color: #F3613C;
 }
 
 button :hover {
-    background: var(--PaleRed);
+    color:#F3613C;
 }
 /*Termina division de avatares*/
 
@@ -304,7 +304,7 @@ button :hover {
 
 .started-item--white {
     align-self: center;
-    color: var(--BrightRed);
+    color:#F3613C;
     background-color: white;
 }
 
