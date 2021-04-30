@@ -586,7 +586,7 @@ footer {
     }
     .section-3 {
         background: white;
-        background-image: url("../img/bg-tablet-pattern.svg");
+        background-image: url("./Img/bg-tablet-pattern.svg");
         background-size: 50%;
         background-repeat: no-repeat;
         background-position: -50% 5%;
